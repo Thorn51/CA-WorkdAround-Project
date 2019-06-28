@@ -37,4 +37,4 @@ function reimbursementEligibility() {
   }
   return totalBenefitsValue;
 }
- export default Employee; 
+ export {Employee, getCadre as cadre, calculateTax as tax, getBenefits as benefits, calculateBonus as bonus, reimbursementEligibility as reimbursement}; 
