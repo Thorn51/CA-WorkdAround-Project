@@ -1,4 +1,4 @@
-let Employee = {
+export let Employee = {
     salary: 100000,
 };
 
