@@ -1,6 +1,6 @@
-let Employee = {};
-
-let salary = 100000;
+let Employee = {
+    salary: 100000,
+};
 
 let payGrades = {
   entryLevel: { taxMultiplier: .05, benefits: ['health'], minSalary: 10000, maxSalary: 49999 },
